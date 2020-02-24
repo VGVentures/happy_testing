@@ -24,6 +24,12 @@
 
 ---
 
+# Sample Project
+
+# [fit] https://github.com/VGVentures/happy_testing
+
+---
+
 # Why Testing?
 
 ---
@@ -62,6 +68,13 @@
 
 ---
 
+[.code-highlight: all]
+[.code-highlight: 2]
+[.code-highlight: 3-5]
+[.code-highlight: 6-8]
+[.code-highlight: 9-11]
+[.code-highlight: 12]
+
 # Example
 
 ```dart
@@ -82,6 +95,13 @@ String getTimeOfDay() {
 
 ---
 
+[.code-highlight: all]
+[.code-highlight: 2, 5, 8]
+[.code-highlight: 3]
+[.code-highlight: 6]
+[.code-highlight: 9]
+[.code-highlight: 11]
+
 # Unit Tests
 
 ```dart
@@ -101,6 +121,13 @@ test('getTimeOfDay at 6am returns Morning', () {
 
 ---
 
+![fit](./assets/unit-what.png)
+
+---
+
+[.code-highlight: all]
+[.code-highlight: 1]
+
 # Refactor
 
 ```dart
@@ -119,6 +146,9 @@ String getTimeOfDay(DateTime time) {
 ```
 
 ---
+
+[.code-highlight: all]
+[.code-highlight: 3, 6, 9]
 
 # Unit Tests
 
@@ -209,3 +239,18 @@ test('getTimeOfDay at 6am returns Morning', () {
 - Build + Test your app after every commit automatically
 
 - Deploy straight to Google Play/Appstore
+
+---
+
+# Demo Time!
+
+![inline](./assets/codemagic2.jpg)
+
+---
+
+# Questions?
+
+---
+
+# Happy testing! 
+# 👩‍💻👨‍💻
