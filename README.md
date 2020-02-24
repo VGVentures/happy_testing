@@ -1,5 +1,7 @@
 # happy_testing
 
+[![Codemagic build status](https://api.codemagic.io/apps/5e542e80b08451d9a0321295/5e542e80b08451d9a0321294/status_badge.svg)](https://codemagic.io/apps/5e542e80b08451d9a0321295/5e542e80b08451d9a0321294/latest_build)
+
 A Flutter project to showcase different Flutter testing techniques.
 
 ## Unit Tests
