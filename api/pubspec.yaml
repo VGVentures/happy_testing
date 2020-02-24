@@ -1,0 +1,11 @@
+name: api
+description: API project that returns an increment of the given number
+version: 1.0.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+
+dev_dependencies:
+  test: 1.12.0
