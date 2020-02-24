@@ -4,6 +4,17 @@ A Flutter project to showcase different Flutter testing techniques.
 
 ## Unit Tests
 
+### Dependency graph
+
+To get a dependency graph of your application:
+
+```sh
+pub global activate pubviz
+pubviz open -d
+```
+
+![pubviz](./docs/assets/pubviz.png)
+
 ### Api
 
 To run unit tests and generate a coverage report for the `api` package run:
