@@ -2,7 +2,60 @@
 
 A Flutter project to showcase different Flutter testing techniques.
 
+## Unit Tests
+
+### Api
+
+To run unit tests and generate a coverage report for the `api` package run:
+
+```sh
+cd packages/api
+pub run test_coverage && genhtml -o coverage coverage/lcov.info
 ```
+
+View the coverage report via:
+
+```sh
+open coverage/index.html
+```
+
+### Repository
+
+To run unit tests and generate a coverage report for the `repository` package run:
+
+```sh
+cd packages/repository
+pub run test_coverage && genhtml -o coverage coverage/lcov.info
+```
+
+View the coverage report via:
+
+```sh
+open coverage/index.html
+```
+
+## Widget Tests
+
+To run widget tests and generate a coverage report for the flutter app run:
+
+```sh
+flutter test --coverage && genhtml -o coverage coverage/lcov.info
+```
+
+View the coverage report via:
+
+```sh
+open coverage/index.html
+```
+
+## Integration Tests
+
+To run integration tests for the flutter app run:
+
+```sh
+flutter drive --target=test_driver/main.dart
+```
+
 MIT License
 
 Copyright (c) 2020 Very Good Ventures
@@ -24,4 +77,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+```
+
 ```
