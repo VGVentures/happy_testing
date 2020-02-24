@@ -4,7 +4,7 @@ packages:
   api:
     dependency: transitive
     description:
-      path: api
+      path: "packages/api"
       relative: true
     source: path
     version: "1.0.0"
@@ -133,7 +133,7 @@ packages:
   repository:
     dependency: "direct main"
     description:
-      path: repository
+      path: "packages/repository"
       relative: true
     source: path
     version: "1.0.0"

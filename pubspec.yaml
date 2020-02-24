@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   repository:
-    path: ./repository
+    path: ./packages/repository
 
 dev_dependencies:
   flutter_test:

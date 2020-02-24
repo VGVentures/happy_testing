@@ -50,15 +50,15 @@
 
 # What makes Code Testable?
 
-- Decoupled dependencies
+- Decoupled Dependencies
 
-- Single Responsibility Principle
+- Single Responsibility
 
 - Conveys intention clearly
 
 - Avoids Side-Effects
 
-- Is Predictable
+- Predictable
 
 ---
 
@@ -154,32 +154,32 @@ test('getTimeOfDay at 6am returns Morning', () {
 
 ---
 
-# `package:test/test.dart`
-
+# `package:test`
+<br>
 ## A full featured library for writing and running Dart tests.
 
 ---
 
-# `package:test_coverage/test_coverage.dart`
-
+# `package:test_coverage`
+<br>
 ## Command line utility to run tests in Dart VM and collect coverage data.
 
 ---
 
-# `package:flutter_test/flutter_test.dart`
-
+# `package:flutter_test`
+<br>
 ## A full featured library for writing and running Flutter Widget tests.
 
 ---
 
-# `package:flutter_driver/flutter_driver.dart`
-
+# `package:flutter_driver`
+<br>
 ## A full featured library for writing and running Flutter Integration tests.
 
 ---
 
-# `package:mockito/mockito.dart`
-
+# `package:mockito`
+<br>
 ## A mock framework inspired by Mockito (Java)
 
 ---
