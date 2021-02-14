@@ -1,6 +1,7 @@
 name: happy_testing
 description: A Flutter project to showcase different Flutter testing techniques.
 version: 1.0.0
+publish_to: none
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
