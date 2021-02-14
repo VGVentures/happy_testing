@@ -1,6 +1,7 @@
 name: repository
 description: Repository project that contains the domain layer of happy testing
 version: 1.0.0
+publish_to: none
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
